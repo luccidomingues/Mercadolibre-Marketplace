@@ -8,7 +8,7 @@ My task involves the data analysis, designing, processing and modeling of a mach
 To assist in that task a dataset is provided in `MLA_100k_checked_v3.jsonlines` and a function `build_dataset` to read that dataset in `new_or_used.py`.
 
 
-Above an explanation on the criteria applied to choose the features, the proposed metrics and the performance achieved on that metrics.
+Bellow an explanation on the criteria applied to choose the features, the proposed metrics and the performance achieved on that metrics.
 
 The chosen model was the Gradient Boosting Classifier with an accuracy of 86.20% (using an approach based on feature selection using the RFE method and
 by selecting hyperparameters using the GridSearchCV method). I covered 9 different classification models in the project, including models from different groups
